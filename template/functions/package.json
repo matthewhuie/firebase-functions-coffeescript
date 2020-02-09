@@ -2,7 +2,7 @@
   "name": "functions",
   "scripts": {
     "lint": "coffeelint src/*.coffee",
-    "build": "coffee -c -m -o lib/ src/*.coffee",
+    "build": "coffee -c -m -o lib/ src/",
     "serve": "npm run build && firebase serve --only functions",
     "shell": "npm run build && firebase functions:shell",
     "start": "npm run shell",
